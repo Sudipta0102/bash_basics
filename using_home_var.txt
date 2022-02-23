@@ -1,0 +1,3 @@
+writing to a file using home variable.
+writing to a file using home variable.
+writing in link file
