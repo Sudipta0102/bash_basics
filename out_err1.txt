@@ -1,0 +1,4 @@
+==> /etc/passwd <==
+poop:x:1000:1000:poop:/home/poop:/bin/bash
+vboxadd:x:991:1::/var/run/vboxadd:/bin/false
+u1:x:1001:1001::/home/u1:/bin/bash
