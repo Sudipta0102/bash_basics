@@ -1,0 +1,21 @@
+#!/bin/bash
+
+read -p "num: " num
+
+echo "scale=10;sqrt($num)"|bc
+
+read -p "a: " a
+read -p "b: " b
+
+# I think these are new changes, I can just a and b like a variable,
+# and it will just get the assigned respective values...before it was $a and $b
+# which I think still works fine. 
+
+# also the spaces were very meticulous before. This works without them.
+add=$((a+b))
+sub=$((a-b))
+mul=$((a*b))
+div=$((a/b))
+pow=$((a**b))
+
+echo $add $sub $mul $div $pow
